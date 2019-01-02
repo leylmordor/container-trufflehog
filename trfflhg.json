@@ -2,7 +2,7 @@
   "variables": {
     "app":             "{{env `APP`}}",
     "from_image":      "{{env `FROM_IMAGE`}}",
-    "trufflehog_ver":  "{{env `TRUFFLEHOG_VER`}}"
+    "trufflehog_ver":  "{{env `TRUFFLEHOG_VER`}}",
     "project_name":    "{{env `PROJECT_NAME`}}",
     "docker_username": "{{env `DOCKER_USERNAME`}}",
     "docker_password": "{{env `DOCKER_PASSWORD`}}",
