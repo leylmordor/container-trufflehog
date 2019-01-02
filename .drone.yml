@@ -8,6 +8,7 @@ steps:
     APP: trfflhg
     DOCKER_HOST: tcp://serviced:2375
     FROM_IMAGE: "python:3.7.1-alpine3.8"
+    TRUFFLEHOG_VER: "2.0.98"
     PROJECT_NAME: yellowmegaman
     DOCKER_USERNAME:
       from_secret: docker_username
